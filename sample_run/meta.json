@@ -1,0 +1,59 @@
+{
+  "auth_tokens": {
+    "admin": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiI3NWUzZGY4ZTk3M2ZkYjlhZjYwM2MzMjgzNDBiOTBmMSIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjYtMDYtMjAgMTc6MDc6MTcuOTQyICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjYtMDYtMjAgMTg6MTg6MzAuOTkxICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc4MTk4MDcyOH0.i016zat0V3hKp4jkNOVD1TDFLZZIkRcmwbRbIozL1VkulZe97TRnX6LVqxymZIfaT3Sj1d34W1lX5Q_N3Klw2zFXPkFhpijbzM01lUu-AtTtDUDWetIgsROsSxIFy91ncSqmT_a5atkCLqI6UcWlmFdWAOU-h8MWB85MAK4SNuA"
+  },
+  "endpoints": [
+    {
+      "method": "POST",
+      "path": "/rest/user/login"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/acquisitions.md"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/incident-support.kdbx"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/coupons_2013.md.bak"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/coupons_2013.md.bak%2500.md"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/package.json.bak%2500.md"
+    },
+    {
+      "method": "GET",
+      "path": "/ftp/eastere.gg%2500.md"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/basket/1"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/basket/2"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/BasketItems/4"
+    },
+    {
+      "method": "GET",
+      "path": "/rest/user/change-password"
+    },
+    {
+      "method": "GET",
+      "path": "/api/Users/"
+    }
+  ]
+}
