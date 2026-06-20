@@ -11,9 +11,10 @@ walks you through what I built, why I built it that way, and how to verify it yo
 |---|---------------|-------------|
 | 1 | Code — Git repo, clones & runs cleanly | This repo: https://github.com/kavirtudez/juiceshark |
 | 2 | Raw agent output logs | [`sample_run/session.jsonl`](sample_run/session.jsonl) — full 205-step trace; plus [`sample_run/findings.json`](sample_run/findings.json) and [`sample_run/meta.json`](sample_run/meta.json) |
-| 3 | AI tool transcripts | Exported Claude Code session, attached with my email |
-| 4 | Findings report | [`sample_run/findings_report.md`](sample_run/findings_report.md) |
-| 5 | Reflection doc (≤1 page) | [`reflection.md`](reflection.md) |
+| 3 | Findings report | [`sample_run/findings_report.md`](sample_run/findings_report.md) |
+| 4 | Reflection doc (≤1 page) | [`reflection.md`](reflection.md) |
+
+How I worked with AI tools is described in the "How I used AI tools" section below.
 
 ---
 
@@ -145,7 +146,7 @@ then reviewed and corrected its output. The highest-value use was diagnosis rath
 pointed it at the raw `session.jsonl` to trace the 401s to the token-capture site, and had it pull the
 missing-algorithm JWT detail straight from Juice Shop's source. Several first attempts were wrong (the
 `current=WRONG` payload is the clearest example) — correcting those against real server behavior is the
-collaboration I'd point to. The attached transcript shows that back-and-forth.
+collaboration I'd point to, and it shows up directly in the commit history.
 
 ---
 
